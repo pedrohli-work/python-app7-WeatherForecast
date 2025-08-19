@@ -10,7 +10,6 @@ from backend import get_data, get_aqi, get_uv_open_meteo
 
 # Add title, text_input, slider, selectbox and subheader
 st.title("Weather Forecast for the Next Days")
-st.write("Type the city in the box above and press Enter to see the forecast.")
 place = st.text_input("Place: ", placeholder="Type city name and press Enter")
 days = st.slider("Forcast Days", min_value=1, max_value=5, 
                  help="Select the number of forcasted days")
