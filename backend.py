@@ -3,7 +3,7 @@ from typing import List, Tuple
 import requests
 
 
-API_KEY = "17462ea28d41b594a2fde824b17356d0"
+API_KEY = "Your API KEY"
 
 def get_data(place, forecast_days=None):
     """
